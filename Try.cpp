@@ -1,5 +1,4 @@
 #include<iostream>
-//#include<windows.h>
 using namespace std;
 
 class Player {
@@ -98,9 +97,6 @@ int main() {
 
     Player[0].getChar(ch1);
     Player[1].getChar(ch2);
-
-    //Player[0].printChar();
-    //Player[1].printChar();
 
     Player[0].initBoard(arr);
     while (1) {
